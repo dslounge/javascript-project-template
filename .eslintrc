@@ -1,0 +1,17 @@
+{
+  "extends": [ "prettier"],
+  "parser": "babel-eslint",
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "arrow-body-style": 0,
+    "import/prefer-default-export": 0,
+    "prettier/prettier": "error",
+  },
+  "env": {
+    "jest/globals": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "fetch": true
+  }
+}
